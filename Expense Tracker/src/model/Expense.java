@@ -68,11 +68,11 @@ public class Expense{
 
 
     public String toString(){
-        return Id+" , "+Date+" , "+Description+" , "+Amount;
+        return Id+"\t"+Date+"\t"+Description+"\t"+Amount;
     }
 
     public static Expense fromString(String line){
-        String arr[] = line.split(",");
+        String arr[] = line.split(" ");
         int id = Integer.parseInt(arr[0]);
         LocalDate date = LocalDate.parse(arr[1]);
         String description  = arr[2];
