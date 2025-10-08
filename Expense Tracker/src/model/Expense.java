@@ -1,4 +1,4 @@
-package model;
+
 import java.time.LocalDate;
 
 public class Expense{
@@ -79,6 +79,6 @@ public class Expense{
         Integer amount = Integer.parseInt(arr[3]);
         return new Expense(id,date,description,amount);
     }
-    
+
 
 }
