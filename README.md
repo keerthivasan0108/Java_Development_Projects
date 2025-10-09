@@ -1,48 +1,88 @@
-# Java_Development_Projects
-This repository contains two separate beginner-friendly Java CLI projects that were built as part of learning exercises.
+# 🧠 Java_Development_Projects
 
-Projects Included
+This repository contains **three beginner-friendly Java CLI projects**, created as part of hands-on learning exercises.  
+Each project demonstrates Java fundamentals such as OOP, file handling, user input, and simple data management using the command line.
 
-Guess Number
-A simple CLI game where the user guesses a number chosen by the computer.
+---
 
-Copy and paste the code into a .java file.
+## 🚀 Projects Included
 
-Compile and run using:
-javac Filename.java
-java Filename
+### 🎯 1. Guess Number
+A simple CLI game where the user guesses a random number chosen by the computer.
 
+**How to Run:**
+- Copy and paste the code into a `.java` file.  
+- Compile and run using:
+  ```bash
+  javac Filename.java
+  java Filename
 or run directly using a Java Code Runner in your IDE.
 
-Project reference: https://roadmap.sh/projects/number-guessing-game
+Project Reference:
+🔗 https://roadmap.sh/projects/number-guessing-game
 
-Expense Tracker
-A CLI application to manage and track expenses.
+💰 2. Expense Tracker
+A CLI application that helps you manage and track daily expenses.
 
-Allows you to:
+Features:
 
-Add an expense with description and amount
+➕ Add an expense with description and amount
 
-Update an expense
+✏️ Update an existing expense
 
-Delete an expense
+❌ Delete an expense
 
-View all expenses
+📋 View all expenses
 
-View monthly or overall expense summary
+📅 View monthly or overall expense summary
 
-Clone the repository and navigate to the project folder:
-git clone https://github.com/
-<keerthivasan0108>/Java_Development_Projects.git
+How to Run:
+
+bash
+Copy code
+git clone https://github.com/<your-username>/Java_Development_Projects.git
 cd Java_Development_Projects/Expense-Tracker/src
+java -jar Expense-Tracker.jar
+Or compile and run directly in your IDE.
 
-Run using:
-java -jar Expense-Tracker.jar <command>
+Project Reference:
+🔗 https://roadmap.sh/projects/expense-tracker
 
-or compile and execute it using your IDE.
+✅ 3. Task Tracker
+A CLI-based task management system that lets users manage their daily to-do list efficiently.
+Built using the DAO (Data Access Object) pattern and file handling, it allows tasks to be stored persistently even after the program closes.
 
-Project reference: https://roadmap.sh/projects/expense-tracker
+Features:
 
-Note
-These are two different projects grouped together in one repository for convenience.
-You can explore each project in its own folder.
+➕ Add a new task (with ID, description, and status)
+
+✏️ Update or edit existing tasks
+
+❌ Delete tasks
+
+📋 View all tasks
+
+🔄 Mark task status as “To-do”, “In-progress”, or “Done”
+
+💾 Automatically saves all tasks in a local file
+
+How to Run:
+
+bash
+Copy code
+git clone https://github.com/<your-username>/Java_Development_Projects.git
+cd Java_Development_Projects/Task-Tracker/src
+javac Main.java
+java Main
+🗂️ Note
+These are three independent CLI projects, grouped together in one repository for learning convenience.
+You can explore each project in its respective folder.
+
+yaml
+Copy code
+
+---
+
+✅ Replace `<your-username>` with your actual GitHub username before pushing.  
+
+Would you like me to make this look even more professional (with badges, headings, and a small “About Me” footer)?
