@@ -40,7 +40,7 @@ How to Run:
 
 bash
 Copy code
-git clone https://github.com/<your-username>/Java_Development_Projects.git
+git clone https://github.com/<keerthivasan0108>/Java_Development_Projects.git
 cd Java_Development_Projects/Expense-Tracker/src
 java -jar Expense-Tracker.jar
 Or compile and run directly in your IDE.
@@ -70,7 +70,7 @@ How to Run:
 
 bash
 Copy code
-git clone https://github.com/<your-username>/Java_Development_Projects.git
+git clone https://github.com/<keerthivasan0108>/Java_Development_Projects.git
 cd Java_Development_Projects/Task-Tracker/src
 javac Main.java
 java Main
@@ -78,11 +78,3 @@ java Main
 These are three independent CLI projects, grouped together in one repository for learning convenience.
 You can explore each project in its respective folder.
 
-yaml
-Copy code
-
----
-
-✅ Replace `<your-username>` with your actual GitHub username before pushing.  
-
-Would you like me to make this look even more professional (with badges, headings, and a small “About Me” footer)?
